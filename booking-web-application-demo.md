@@ -1726,7 +1726,7 @@ const BookingList = () => {
 
 export default BookingList;
 ```
-2) แก้ไขไฟล์ App.js ดังนี้
+2) แก้ไขไฟล์ App.jsx ดังนี้
 ```jsx
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -1930,7 +1930,7 @@ const BookingEdit = () => {
 export default BookingEdit;
 ```
 2) แก้ไขโค้ดตำแหน่ง  {/* เพิ่ม fields อื่นๆ เหมือน BookingForm */} โดยคัดลอกมาจากไฟล์ BookingForm.jsx
-3) แก้ไข App.js ดังนี้
+3) แก้ไข App.jsx ดังนี้
    2.1) เพ่ิมการ import BookingEdit
    ```jsx
    import BookingEdit from "./components/BookingEdit";
@@ -1996,7 +1996,7 @@ const AdminDashboard = () => {
 
 export default AdminDashboard;
 ```
-2) แก้ไขไฟล์​ App.js
+2) แก้ไขไฟล์​ App.jsx
    2.1) เพิ่มการ import AdminDashboard from "./components/AdminDashboard"; 
    2.2) แก้ไข Route ในส่วนของ part="/admin" จาก <BookingList /> เป็น <AdminDashboard />
    ```jsx
